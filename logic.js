@@ -23,7 +23,7 @@ let quranIndexRevisedKeyedCurrent = quranIndexRevisedKeyed["A"];
 // Function to load JSON synchronously
 function loadQuranContent(quranLangVersion) {
     // URL of the JSON file
-    const jsonUrl = `https://github.com/gonotech/quran-through-seerah/blob/5a7206fe8e836d71bcccfc192afbf97fa962bd6c/data/quranContent/${quranLangVersion}.json`;
+    const jsonUrl = `https://raw.githubusercontent.com/gonotech/quran-through-seerah/main/data/quranContent/${quranLangVersion}.json`;
 
     // Function to perform synchronous request
     function loadJSONSync(url) {
