@@ -1,0 +1,156 @@
+body {
+    background-color: #333;
+    color: #fff;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: #333;
+}
+.btn-primary {
+    background-color: #007bff;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+select.form-control {
+    background-color: #444;
+    color: #fff;
+}
+header {
+    background: #222;
+}
+.btn-group {
+    width: 100%;
+}
+
+/* Custom style for the dark background */
+#textBoxContent {
+    background-color: #343a40; /* Dark background color */
+    color: #ffffff; /* White text color */
+    padding: 15px; /* Add padding for better visibility */
+    overflow: auto; /* Make the text box scrollable */
+    max-height: 200px; 
+    margin: 0;
+    text-align: left;
+}
+
+.closeButton {
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #343a40;
+}
+
+.verse-original {
+    /* font-family: 'Amiri', serif;  */
+    font-size: 2em; /* Font size 2x */
+    line-height: 1.6;
+    letter-spacing: 1.5px;
+    -webkit-text-size-adjust: 100%;
+    color: var(--color-text-default);
+    -webkit-font-smoothing: antialiased;
+    direction: rtl;
+    --line-height: 6.1vh;
+    --skeleton-height: 4.65vh;
+    white-space: nowrap;
+    text-align: right;
+    margin-block-start: 0;
+    margin-inline-end: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    padding-block-start: 0;
+    padding-inline-end: 0;
+    padding-block-end: 0;
+    padding-inline-start: 0;
+    border: 0;
+    vertical-align: baseline;
+    line-height: var(--line-height);
+    font-family: UthmanicHafs!important;
+    white-space: initial;
+}
+
+.verse-translation {
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    margin-block-start: 0;
+    margin-inline-end: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    padding-block-start: 0;
+    padding-inline-end: 0;
+    padding-inline-start: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    letter-spacing: 0;
+    line-height: 2;
+    text-align: left;
+    direction: ltr;
+    font-size: 1.3rem
+}
+
+#quranLangDropdown {
+    --primary: #007bff;
+    --gray: #6c757d;
+    --dark: #343a40;
+  
+    box-sizing: border-box;
+    margin: 0;
+    font-family: inherit;
+    overflow: visible;
+    text-transform: none;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    color: #fff;
+    background-color: var(--gray); /* Use the primary color or your custom color */
+    border-color: var(--gray); /* Use the primary color or your custom color */
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    -webkit-appearance: none; /* Remove default styles on WebKit browsers */
+    appearance: none; /* Remove default styles on modern browsers */
+    cursor: pointer;
+  }
+  
+  #quranLangDropdown:hover {
+    background-color: var(--dark); /* Use a darker shade on hover if desired */
+    border-color: var(--dark); /* Use a darker shade on hover if desired */
+  }
+  
+  #quranLangDropdown:focus {
+    outline: none; /* Remove the default focus outline */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Add a subtle focus effect */
+  }
+  
+/* Custom CSS to make the checkbox more prominent */
+#toggleArabicCheckBox {
+    transform: scale(1.5); /* Adjust the scale factor as needed */
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+/* Optional: Adjust the label style for better alignment */
+.checkbox-label {
+    display: flex;
+    align-items: center;
+}
+
+
+@media (max-width: 576px) {
+    .btn-group {
+        flex-direction: column;
+    }
+}

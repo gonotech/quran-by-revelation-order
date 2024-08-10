@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collapsible Text Box</title>
+  <!-- Bootstrap CSS link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+  <div class="mb-3">
+    <label for="dropdown" class="form-label">Select an option:</label>
+    <select id="dropdown" class="form-select" onchange="updateTextBox()">
+      <option value="option1">Option 1</option>
+      <option value="option2">Option 2</option>
+      <option value="option3">Option 3</option>
+    </select>
+  </div>
+
+  <div class="collapse" id="collapseExample">
+    <div class="card card-body" id="textBoxContent">
+      <!-- Content will be populated dynamically -->
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  // Map to store content for each option
+  const contentMap = {
+    option1: "Content for Option 1",
+    option2: "Content for Option 2",
+    option3: "Content for Option 3",
+  };
+
+  // Function to update the text box content and show the collapsible box
+  function updateTextBox() {
+    const dropdown = document.getElementById('dropdown');
+    const selectedOption = dropdown.value;
+    const textBoxContent = document.getElementById('textBoxContent');
+    const collapseExample = new bootstrap.Collapse(document.getElementById('collapseExample'));
+
+    // Update the content of the text box based on the selected option
+    textBoxContent.textContent = contentMap[selectedOption];
+
+    // Show the collapsible box
+    collapseExample.show();
+  }
+</script>
+
+</body>
+</html>
