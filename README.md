@@ -1,24 +1,30 @@
 # Quran through Seerah
 
-> ⚠️ Disclaimer: There is no universally agreed upon order to relevation of Quranic Surahs. The order used in this project is based on author's personal research and may be inaccurate. This is more of a project that stemmed from personal research intereset. It is not very systematic in nature. Please do not consider the order of revelation used here as the correct one. But feel free to use it as a study resource while being aware of this disclaimer.
+> ⚠️ **Disclaimer:** The order of revelation for the Quranic Surahs is not universally agreed upon. The sequence used in this project is based on the author's personal research and may contain inaccuracies. This project is a product of personal interest and research, not a systematic study. Please do not consider the order used here as definitive. However, feel free to use this as a study resource, keeping this disclaimer in mind.
 
-> ⚠️ Disclaimer: Please note that order of revelation in not the actual order of Quran. Instead, the actual order of Quran is what found in every Quran (the actual book) where it is ordered from Surah Fatiha to Surah An-Nas. Order of revelation used here (and quite frankly any other order used anywhere else) is mainly for study and research purposes.
+> ⚠️ **Disclaimer:** The order of revelation presented here is not the actual sequence found in the Quran. The Quran as it exists in its book form is arranged from Surah Al-Fatiha to Surah An-Nas. Any alternate order, including the one used in this project, is intended for study and research purposes only.
 
-## Introduction:
-The intended purpose of the "Quran through Seerah" project is to provide a way for the readers to read the Quranic Surahs and verses while being aware of the high level context of the time-period of the revelation of these Surahs. Several sources were used to decide on the order used in this project. The high level context of the Seerah is also taken from an existing well known project. An intuitive UI has been provided to access it from any device with an internet connection - mobile or desktop. Users can decide only to view the translations and/or actual Arabic Quran.
+## Introduction
 
-## Overview of how the order in this project was decided:
-We used the following resources to come of with the order of revelation:
-- https://tanzil.net/docs/revelation_order (which derived information from (a) The History of the Quran by Abu Abd Allah al-Zanjani (pdf book, English translation), (b) Chronological Order of Quranic Surahs, rendered by Kevin P. Edgecomb. (c) Geschichte des Korans by Theodor Noldeke (pdf book, Arabic translation).
-- Surah introductions at https://quran.com/ (they used several other sources for these introductions)
+The "Quran through Seerah" project aims to provide readers with an understanding of the Quranic Surahs and verses within the context of the historical period during which they were revealed. Various sources have been used to determine the sequence of Surahs in this project. The high-level context of the Seerah is also derived from a well-known project. The interface is intuitive, allowing access from any device—mobile or desktop. Users can choose to view translations and/or the original Arabic text of the Quran.
 
-The main backbone of the order used in this project is taken from Tanzil.net. This order was slightly modifed for a few Surahs based on the details found in the Surah introduction of Quran.com. The critera for override was that if there was a strong argument in Quran.com's introduction for a particular Surah's order which was in disagreement with the one mentioned in Tanzil.net, then the order suggested in Quran.com's Surah introductions was used. Please note that this was done based on the subjective perception of the author of this project and that judgement can be flawed.
+## Project Overview: Deciding the Order of Revelation
 
+The order of revelation in this project was derived from the following resources:
 
-## How the "Seerah summary" for different periods was written:
-The Seerah summary for different stages of Prophet Muhammad's (peace be upon him) life is based on MRDF's Prophetic Timeline (https://www.mrdf.co.uk/projects, also, there is an app that nicely portrays this mini Seerah: https://gtaf.org/apps/seerah/). A GPT-summarized (and author reviewed) version of this timeline has been used in this project.
+- [Tanzil.net Documentation](https://tanzil.net/docs/revelation_order), which sources information from:
+  - "The History of the Quran" by Abu Abd Allah al-Zanjani (PDF, English translation)
+  - "Chronological Order of Quranic Surahs," rendered by Kevin P. Edgecomb
+  - "Geschichte des Korans" by Theodor Noldeke (PDF, Arabic translation)
+  
+- Surah introductions available at [Quran.com](https://quran.com/), which utilizes several additional sources.
 
-## Translations:
-Translations used in this project are taken from https://github.com/risan/quran-json 
+The primary order used in this project is based on Tanzil.net, with minor modifications for certain Surahs influenced by the Surah introductions on Quran.com. If Quran.com's introduction presented a strong case for a different sequence, it was used in place of Tanzil.net's order. Please note that these decisions were made subjectively by the project's author, and there is room for error.
 
+## Seerah Summary Methodology
 
+The Seerah summary for the different stages of Prophet Muhammad's (peace be upon him) life is derived from the MRDF's Prophetic Timeline ([MRDF Projects](https://www.mrdf.co.uk/projects)). An app that provides a well-structured portrayal of this Seerah is available [here](https://gtaf.org/apps/seerah/). A GPT-summarized version of this timeline, reviewed by the author, has been integrated into this project.
+
+## Translations
+
+The translations used in this project are sourced from [Quran JSON](https://github.com/risan/quran-json).
